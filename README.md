@@ -1,65 +1,45 @@
-<!-- TITLE -->
+<!-- Título -->
+# Por Que a Herança Constitui um Assunto Tao Polêmico?
 
-# CURSO DE DOCKER
+***Conteúdo da Aula:***
 
-<!-- TABLE OF CONTENTS -->
+A herança facilita e muito a vida do desenvolvedor no que diz respeito à manutenção do código.
 
-<!-- ## TABELA DE CONTEÚDO -->
+O problema é quando ela é aplicada de maneira indiscriminada, fato recorrente entre os desenvolvedores.
 
-<!-- OVERVIEW -->
+Muitas vezes, as classes não apresentam aquela relação de **“ser”** e o desenvolvedor, de maneira incorreta, aplica a herança entre as duas classes em questão.
 
-<!-- ## VISTA POR CIMA -->
+Essa associação incorreta entre as duas classes certamente refletirá em problemas no futuro, já que qualquer modificação feita na **superclasse** irá refletir diretamente na **subclasse**.
 
-<!-- SCREENSHOT -->
+Se as duas classes na verdade não possuem nenhum tipo de relação, pode ser que as modificações introduzidas na superclasse afetem de maneira negativa as subclasses associadas.
 
-<!-- ### FOTO DA TELA -->
+Outro ponto é que os desenvolvedores, muitas vezes, se esquecem de outros artifícios que a orientação a objetos provê para resolução de alguns problemas, como as interfaces e as sobrescritas e sobrecargas de métodos.
 
-<!-- LINKS -->
+Muitas vezes, o que ocorre é que, nestes casos, a herança é aplicada de maneira incorreta, dificultando a manutenção do código (justamente o contrário do que deveria ocorrer).
 
-<!-- ### LINKS -->
+Por fim, por muitas vezes, os desenvolvedores acabam criando o que chamamos de **“árvores de herança”**.
 
-<!-- MY PROCESS -->
+As árvores de herança se caracterizam por um conjunto de classes que estão unidas por uma cadeia de herança.
 
-<!-- ## MEU PROCESSO -->
+Nós estamos falando, por exemplo, de uma classe D, que herda uma classe C, que herda uma classe B, que herda uma classe A.
 
-<!-- BUILT WITH -->
+Tome muito cuidado com árvores com essa extensão, pois a manutenção do código destas classes é extremamente complexa, já que qualquer um dos membros da árvore que for alterado irá repassar suas alterações para todos os seus filhos.
 
-<!-- ### CONSTRUIDO COM -->
+De maneira geral, dois ou três níveis em uma árvore de herança são suficientes para a resolução dos problemas de arquitetura de *software*.
 
-<!-- WHAT I LEARNED -->
+<!-- Informações -->
+## &#8505; Informações
 
-<!-- ### O QUE APRENDI -->
-
-<!-- CONTINUED DEVELOPMENT -->
-
-<!-- ### DESENVOLVIMENTO CONTÍNUO -->
-
-<!-- USEFUL -->
-
-<!-- ### RECURSOS ÚTEIS -->
-
-<!-- AUTHOR -->
-
-<!-- ## AUTOR -->
-
-<!-- ACKNOWLEDGMENTS -->
-
-<!-- ## AGRADECIMENTOS -->
-
-<!-- INFORMATION -->
-
-## INFORMAÇÕES
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fdocker-full-stack&label=Visitantes&labelColor=%23f9e64f&countColor=%23008000&style=plastic "Total de Visitas")
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=plastic&label=SEGUIDORES&labelColor=f9e64f "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/docker-full-stack?style=plastic&label=OBSERVADORES&labelColor=f9e64f "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/docker-full-stack?style=plastic&label=ESTRELAS&labelColor=f9e64f "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/docker-full-stack?style=plastic&label=BIFURCAÇÕES&labelColor=f9e64f "Total de Bifurcações")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/docker-full-stack?style=plastic&label=TAMANHO&labelColor=f9e64f "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/docker-full-stack?style=plastic&label=LICENÇA&labelColor=f9e64f "Licença do Repositório")
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-por-que-her-con-ass-tao-pol-her-log-ori-obj-com-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
