@@ -1,5 +1,7 @@
 <!-- Título -->
-#
+# Por Que a Herança Constitui um Assunto Tão Polêmico?
+
+***Conteúdo da Aula:***
 
 <!-- Informações -->
 ## &#8505; Informações
