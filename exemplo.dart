@@ -25,3 +25,13 @@ class Som{
     print(som);
   }
 }
+
+class Cachorro {
+  Som som;
+
+  Cachorro(this.som);
+
+  void fazerSom(){
+    som.emitirSom('Latido');
+  }
+}
