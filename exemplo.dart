@@ -20,3 +20,8 @@ class Gato extends Animal {
 }
 
 // Alternativa com composição.
+class Som{
+  void emitirSom(String som){
+    print(som);
+  }
+}
