@@ -12,4 +12,11 @@ class Cachorro extends Animal {
   }
 }
 
+class Gato extends Animal {
+  @override
+  void fazerSom(){
+    print('Miau');
+  }
+}
+
 // Alternativa com composição.
