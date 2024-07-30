@@ -35,6 +35,74 @@ Qualquer alteração em um membro da árvore propagará suas modificações para
 
 De maneira geral, dois ou três níveis em uma árvore de herança são suficientes para resolver problemas de arquitetura de software.
 
+## Objetivos de Aprendizagem
+
+* **Compreender a Polêmica em Torno da Herança:**
+
+  * Identificar as razões pelas quais a herança é um tema controverso na POO;
+  * Analisar os argumentos a favor e contra o uso da herança.
+
+* **Reconhecer os Problemas Potenciais da Herança:**
+
+  * Compreender como a herança pode levar a problemas como acoplamento forte, hierarquias rígidas e dificuldades de manutenção;
+  * Estudar casos reais onde a herança causou problemas de design.
+
+* **Explorar Alternativas à Herança:**
+
+  * Investigar alternativas à herança, como composição e uso de interfaces;
+  * Avaliar quando e como aplicar essas alternativas em vez de herança.
+
+* **Desenvolver Boas Práticas:**
+
+  * Aprender boas práticas para evitar os problemas comuns associados à herança;
+  * Desenvolver habilidades para decidir de forma crítica quando usar herança ou suas alternativas.
+
+## Conteúdo Programático:
+
+* **Introdução à Polêmica da Herança:**
+
+  * História e evolução do uso da herança na POO;
+  * Visão geral das opiniões divergentes sobre a herança.
+
+* **Argumentos a Favor da Herança:**
+
+  * Reutilização de código;
+  * Criação de hierarquias lógicas e organizadas;
+  * Facilidade de implementação de comportamento comum.
+
+* **Argumentos Contra a Herança:**
+
+  * Acoplamento forte entre classes;
+  * Problemas com hierarquias rígidas e inflexíveis;
+  * Dificuldades de manutenção e evolução de código;
+  * Problemas com a reutilização de código em contextos diferentes.
+
+* **Problemas Comuns Associados à Herança:**
+
+  * Exemplo de problema1:
+    * Aumento da complexidade e dificuldade de manutenção em hierarquias profundas.
+  * Exemplo de problema2:
+    * Fragilidade da base de código devido a alterações na superclasse afetando todas as subclasses.
+
+* **Alternativas à Herança:**
+
+  * Composição:
+    * Definição e comparação com herança;
+    * Vantagens e desvantagens;
+    * Exemplos práticos.
+  * Interfaces:
+    * Definição e uso em comparação com herança;
+    * Vantagens e desvantagens;
+    * Exemplos práticos.
+
+* **Boas Práticas no Uso da Herança:**
+
+  * Diretrizes para decidir quando usar herança;
+  * Exemplos de boas práticas no design de hierarquias de classes;
+  * Estratégias para minimizar os problemas da herança.
+
+1. [Exemplo Prático.](exemplo.dart)
+
 <!-- Informações -->
 ## &#8505; Informações
 
