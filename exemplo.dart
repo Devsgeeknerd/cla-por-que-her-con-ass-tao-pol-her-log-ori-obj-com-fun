@@ -35,3 +35,13 @@ class Cachorro {
     som.emitirSom('Latido');
   }
 }
+
+class Gato {
+  Som som;
+
+  Gato(this.som);
+
+  void fazerSom(){
+    som.emitirSom('Miau');
+  }
+}
