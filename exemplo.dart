@@ -1,0 +1,15 @@
+// Problema com herança: Hierarquia rígida e inflexível.
+class Animal {
+  void fazerSom() {
+    print('Som genérico');
+  }
+}
+
+class Cachorro extends Animal {
+  @override
+  void fazerSom(){
+    print('Latido');
+  }
+}
+
+// Alternativa com composição.
