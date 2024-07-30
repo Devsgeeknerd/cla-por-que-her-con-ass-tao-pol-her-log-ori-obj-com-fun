@@ -7,21 +7,21 @@ class Animal {
 
 class Cachorro extends Animal {
   @override
-  void fazerSom(){
+  void fazerSom() {
     print('Latido');
   }
 }
 
 class Gato extends Animal {
   @override
-  void fazerSom(){
+  void fazerSom() {
     print('Miau');
   }
 }
 
 // Alternativa com composição.
-class Som{
-  void emitirSom(String som){
+class Som {
+  void emitirSom(String som) {
     print(som);
   }
 }
@@ -31,7 +31,7 @@ class Cachorro {
 
   Cachorro(this.som);
 
-  void fazerSom(){
+  void fazerSom() {
     som.emitirSom('Latido');
   }
 }
@@ -41,7 +41,7 @@ class Gato {
 
   Gato(this.som);
 
-  void fazerSom(){
+  void fazerSom() {
     som.emitirSom('Miau');
   }
 }
