@@ -1,21 +1,21 @@
 // Problema com herança: Hierarquia rígida e inflexível.
 class Animal {
   void fazerSom() {
-    print('Som genérico');
+    print("Som genérico");
   }
 }
 
-class Cachorro extends Animal {
+class CachorroHeranca extends Animal {
   @override
   void fazerSom() {
-    print('Latido');
+    print("Latido");
   }
 }
 
-class Gato extends Animal {
+class GatoHeranca extends Animal {
   @override
   void fazerSom() {
-    print('Miau');
+    print("Miau");
   }
 }
 
@@ -26,22 +26,40 @@ class Som {
   }
 }
 
-class Cachorro {
+class CachorroComposicao {
   Som som;
 
-  Cachorro(this.som);
+  CachorroComposicao(this.som);
 
   void fazerSom() {
-    som.emitirSom('Latido');
+    som.emitirSom("Latido");
   }
 }
 
-class Gato {
+class GatoComposicao {
   Som som;
 
-  Gato(this.som);
+  GatoComposicao(this.som);
 
   void fazerSom() {
-    som.emitirSom('Miau');
+    som.emitirSom("Miau");
   }
+}
+
+void main(List<String> args) {
+  // Usando herança.
+  CachorroHeranca cachorroHeranca = CachorroHeranca();
+  GatoHeranca gatoHeranca = GatoHeranca();
+
+  cachorroHeranca.fazerSom();
+  gatoHeranca.fazerSom();
+
+  // Usando composição.
+  Som som = Som();
+
+  CachorroComposicao cachorroComposicao = CachorroComposicao(som);
+  GatoComposicao gatoComposicao = GatoComposicao(som);
+
+  cachorroComposicao.fazerSom();
+  gatoComposicao.fazerSom();
 }
